@@ -1,49 +1,76 @@
-# D365FO-KnowledgeBase
-A comprehensive knowledge base for Microsoft Dynamics 365 Finance &amp; Operations Functional Consultants
-# 🚀 D365FO Knowledge Base
+D365FO Knowledge Base
 
-Welcome to my Microsoft Dynamics 365 Finance & Operations Knowledge Base.
+A structured knowledge base for Microsoft Dynamics 365 Finance & Operations — covering functional design templates, module documentation, and implementation guides.
 
-This repository contains implementation guides, business process documentation, configuration notes, templates, and interview preparation material developed during my learning and consulting journey.
 
----
+Repository Structure
 
-## Modules
+D365FO-KnowledgeBase/
+│
+├── README.md                          ← You are here
+│
+└── Finance/
+    ├── Finance/
+    │   ├── Accounts-Payable.md        ← Vendor invoices, payments, AP aging
+    │   ├── Accounts-Receivable.md     ← Customer invoices, collections, AR aging
+    │   └── General-Ledger.md         ← CoA, journals, period close, year-end
+    │
+    ├── Procurement/
+    │   └── Purchase-Order.md         ← PO lifecycle, product receipt, 3-way match
+    │
+    ├── Inventory/
+    │   └── Inventory-Management.md   ← Stock control, costing, transfers, counting
+    │
+    └── Sales/
+        ├── Sales-Order.md            ← Sales lifecycle, trade agreements, invoicing
+        └── Templates/
+            └── FDD-Template.md       ← Functional Design Document template
 
-- Finance
-- Procurement & Sourcing
-- Accounts Payable
-- Accounts Receivable
-- Inventory Management
-- Sales Order Processing
-- Warehouse Management
-- Fixed Assets
-- General Ledger
 
----
+Module Documentation
 
-## Business Processes
+Finance
 
-- Procure to Pay (P2P)
-- Order to Cash (O2C)
-- Record to Report (R2R)
-- Acquire to Retire (A2R)
+DocumentDescriptionAccounts PayableVendor invoice processing, payment runs, AP aging, and reconciliationAccounts ReceivableCustomer invoicing, collections, credit management, and cash applicationGeneral LedgerChart of accounts, financial dimensions, period close, and year-end
 
----
+Procurement
 
-## Resources
+DocumentDescriptionPurchase OrderFull procurement lifecycle from PO creation to vendor invoice and three-way match
 
-- Functional Design Documents
-- Business Requirement Documents
-- UAT Test Cases
-- Configuration Guides
-- Best Practices
-- Interview Questions
+Inventory
 
----
+DocumentDescriptionInventory ManagementStock tracking, costing methods, transfers, adjustments, and inventory close
 
-## About Me
+Sales
 
-**Dynamics 365 Finance & Operations Functional Consultant**
+DocumentDescriptionSales OrderSales lifecycle from quotation through invoicing, trade agreements, and credit checks
 
-Currently building a complete knowledge base for D365FO professionals.
+
+Templates
+
+TemplateDescriptionFDD TemplateStandard Functional Design Document template for D365FO implementation projects
+
+
+How to Use This Knowledge Base
+
+
+Finding a topic: Use the table above or GitHub's file search (T key) to navigate to a module.
+Creating a new FDD: Copy the FDD Template and fill in the relevant sections for your functional area.
+Contributing: Create a branch, add or update the relevant .md file, and raise a pull request for review.
+
+
+
+Contributing Guidelines
+
+
+Use the existing folder structure — place docs in the correct module folder
+Follow the standard document format (see existing docs for reference)
+Fill in the Open Issues / Notes table at the bottom of each doc with any known gaps
+All FDDs should use the standard FDD Template
+Keep language clear and functional — this is a practitioner reference, not vendor marketing
+
+
+
+Maintainer
+
+NameRoleadenikie-starRepository Owner
